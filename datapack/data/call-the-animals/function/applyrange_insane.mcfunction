@@ -27,4 +27,4 @@ execute as @e[type=trader_llama] run attribute @s tempt_range base set 2048
 execute as @e[type=turtle] run attribute @s tempt_range base set 2048
 execute as @e[type=wolf] run attribute @s tempt_range base set 2048
 execute as @e[type=zombie_horse] run attribute @s tempt_range base set 2048
-schedule function call-the-animals:applyrange 2s
+schedule function call-the-animals:applyrange_insane 2s
